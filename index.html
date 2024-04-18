@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guide App</title>
+    <!-- Stylesheet  -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="search-wrapper">
+        <input
+          type="text"
+          id="country-inp"
+          placeholder="Enter a Country name Here..."
+        />
+        <button id="search-btn">Search</button>
+      </div>
+      <div id="result">
+        <!-- Image Container  -->
+        <div class="spinner"></div>
+        <div class="img-container">
+          <img id="flags"
+            src= "{}"
+            alt=""
+          />
+          <p id="countryTitle"></p>
+        </div>
+        <div class="countryDetails">
+          <div class="deatils-align">
+            <p class="keyBold" >Capital :</p>
+            <span id="capital"> </span>
+          </div>
+          <div class="deatils-align">
+            <p class="keyBold" >Continent :</p>
+            <span id="continent"></span>
+          </div>
+          <div class="deatils-align">
+            <p class="keyBold" >Population :</p>
+            <span id="population"></span>
+          </div>
+          <div class="deatils-align">
+            <p class="keyBold" >Currency :</p>
+            <span id="currency"></span>
+          </div>
+          <div class="deatils-align">
+            <p class="keyBold" >Common Language :</p>
+            <span id="langauge"></span>
+          </div>
+          <div class="deatils-align">
+            <p class="keyBold" >Region :</p>
+            <span id="region"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Script -->
+    <script src="script.js">
+      Search
+    </script>
+  </body>
+</html>
